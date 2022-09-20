@@ -4,7 +4,7 @@ get sound and text in video
 
 
 ```
-usage: VC.py [-h] -p PATH
+usage: vc.py [-h] -p PATH
 
 options:
   -h, --help            show this help message and exit
