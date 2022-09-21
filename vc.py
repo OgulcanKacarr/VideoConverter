@@ -20,7 +20,7 @@ def convert(path,lang):
 		result = recognizer.recognize_google(audio_file)
 		converted_lang_text = ts.google(result, to_language = lang)
 		print("\n==========")
-		print(Fore.PURPLE)
+		print(Fore.YELLOW)
 		print(converted_lang_text)
 		print("==========")
 		with open("recognized.txt", 'w') as file:
